@@ -1,8 +1,10 @@
-# Automated Sniping, Arbitrage, & Reinvestment Bot with Risk Management
+# Arbitrage - Solidify Smart Contract Bot 
+
+## Automated Sniping, Arbitrage, & Reinvestment Bot with Risk Management
 
 ## Overview
 
-This bot automates token sniping, cross-chain arbitrage trading, and profit reinvestment. It dynamically adjusts reinvestment percentages based on market volatility, AI predictions, and risk management strategies.
+Buit using Pythong and Web3 this bot automates token sniping, cross-chain arbitrage trading, and profit reinvestment. It dynamically adjusts reinvestment percentages based on market volatility, AI predictions, and risk management strategies.
 
 ## Features
 
