@@ -1,71 +1,39 @@
-# 🤖 Arbitrage Bot - Your Smart Trading Companion 🚀
+# 🤖 Arbitrage Bot
 
-## 💫 Automated Trading Bot with AI-Powered Intelligence 🧠
+> 📈 Advanced trading bot implementing cross-chain arbitrage strategies with AI-powered analysis.
 
-### 🌟 Overview
+## ✨ Features
 
-This state-of-the-art trading bot combines cutting-edge technology to create the ultimate trading experience! 🎯
+- 🎯 Smart token sniping with liquidity validation
+- ⛓️ Multi-chain price monitoring and execution
+- 🧠 AI-driven market analysis and trend detection
+- 🛡️ Automated risk management system
 
-### 🎨 Features Showcase
+## 🏗️ Technical Architecture
 
-🎯 **Smart Sniping System**
-  └─ 🤖 AI-powered analysis
-  └─ 💧 Liquidity checks ($50k+)
-  └─ ⚡ Lightning-fast execution
-  └─ 🎪 Anti-rug protection
+### 🌐 Supported Networks
 
-🔄 **Multi-Chain Magic**
-  └─ 📊 Live price tracking
-  └─ 🌉 Cross-chain bridging
-  └─ 💰 Profit optimization
-  └─ ⚖️ Balance management
+- 💎 Ethereum (ETH)
+- 🟡 Binance Smart Chain (BSC)
+- 🔷 Polygon (MATIC)
 
-📈 **Smart Portfolio Growth**
-  └─ 🎢 Volatility adaptation
-  └─ 🧮 AI trend analysis
-  └─ 🔄 Auto-reinvestment
-  └─ ⏱️ Timed cycles
+### 🔧 Core Components
 
-🛡️ **Safety First**
-  └─ 🎯 Stop-loss system
-  └─ 📌 Trailing stops
-  └─ 📊 Position sizing
-  └─ 📱 Real-time alerts
+- 📊 DEX Screener API integration
+- ⚡ Real-time price monitoring
+- 🌉 Cross-chain bridging
+- ⛽ Dynamic gas optimization
+- 🔒 Slippage protection
 
-### 🔧 Technical Architecture
-
-- **Supported Networks**:
-  - 🔷 Ethereum (ETH)
-  - 🟨 Binance Smart Chain (BSC)
-  - 🟣 Polygon (MATIC)
-
-- **Price Feeds**:
-  - DEX Screener API integration
-  - Real-time price monitoring
-  - Cross-chain price comparison
-
-- **Smart Features**:
-  - Automated market trend analysis
-  - Dynamic gas fee optimization
-  - Slippage protection
-  - Failed transaction handling
-
-### 📥 Installation
-
-1. Clone the repository:
+## 📥 Installation
 
 ```bash
 git clone https://github.com/yourusername/arbitrage-bot.git
 cd arbitrage-bot
-```
-
-2.; Install dependencies:
-
-```bash
 pip install -r requirements.txt
 ```
 
-3.; Configure environment variables:
+Configure environment:
 
 ```env
 WALLET_ADDRESS="your_wallet_address"
@@ -73,110 +41,51 @@ PRIVATE_KEY="your_private_key"
 INFURA_PROJECT_ID="your_infura_id"
 ```
 
-### 🚦 Usage
+## 📈 Trading Strategies
 
-1. Start the bot:
+### 🎯 Token Sniping
 
-```bash
-python app.py
-```
+- 👀 New pair monitoring
+- 💧 Liquidity validation ($50k minimum)
+- 🤖 AI-based entry prediction
+- 🚪 Quick exit implementation
 
-2.; Monitor operations:
+### 💱 Arbitrage Execution
 
-- The bot will display real-time logs of:
-  - 🔍 Token scanning
-  - 🎯 Sniping opportunities
-  - 🔄 Arbitrage executions
-  - 📊 Profit tracking
-  - 💰 Reinvestment activities
-
-### 💡 Trading Strategies
-
-1. **Token Sniping**:
-   - Monitors new token pairs
-   - Validates liquidity requirements
-   - Uses AI predictions for entry
-   - Implements quick exit strategies
-
-2. **Arbitrage**:
-   - Monitors price differences across chains
-   - Minimum 3% profit threshold
-   - Accounts for gas and bridge fees
-   - Automated execution
-
-3. **Reinvestment**:
-   - Based on volatility:
-     - High (>5%): 30% reinvestment
-     - Moderate: 50% reinvestment
-     - Low (<2%): 70% reinvestment
-   - AI-driven token selection
-   - Profit threshold: 0.2 ETH/BNB/MATIC
+- 📊 Cross-chain price differential monitoring
+- 💰 Minimum 3% profit threshold
+- ⚡ Gas and bridge fee optimization
+- 🔄 Automated position management
 
 ### ⚠️ Risk Management
 
-1. **Stop-Loss**:
-   - Automatic 20% stop-loss
-   - Chain-specific implementation
-   - Real-time price monitoring
+- 🛑 20% automatic stop-loss
+- 📉 10% trailing stop
+- 💰 Dynamic position sizing
+- 📊 Real-time monitoring
 
-2. **Trailing Stop**:
-   - 10% trailing stop from peak
-   - Profit protection mechanism
-   - Dynamic adjustment
-
-### 📊 Profit Tracking
-
-- Chain-specific profit monitoring
-- Real-time profit/loss calculation
-- Reinvestment threshold tracking
-- Performance analytics
-
-### 🔐 Security Features
-
-- Private key encryption
-- Secure API interactions
-- Rate limiting protection
-- Failed transaction handling
-
-### ⚙️ Configuration Options
+## ⚙️ Configuration
 
 ```python
-# Risk Management
-STOP_LOSS_PERCENTAGE = 0.20  # 20% stop-loss
-TRAILING_STOP_PERCENTAGE = 0.10  # 10% trailing stop
-
-# Liquidity Requirements
-MIN_LIQUIDITY_USD = 50000  # Minimum $50k liquidity
-
-# Reinvestment Thresholds
-MIN_REINVESTMENT_AMOUNT = 0.2  # in native token
-REINVESTMENT_INTERVAL = 1800  # 30 minutes
+STOP_LOSS_PERCENTAGE = 0.20
+TRAILING_STOP_PERCENTAGE = 0.10
+MIN_LIQUIDITY_USD = 50000
+MIN_REINVESTMENT_AMOUNT = 0.2
+REINVESTMENT_INTERVAL = 1800
 ```
 
-### 📈 Performance Monitoring
+## 🤝 Contributing
 
-The bot provides real-time updates on:
+1. 🔀 Fork repository
+2. 🌿 Create feature branch
+3. 💾 Commit changes
+4. 🚀 Push to branch
+5. 📬 Submit Pull Request
 
-- Token scanning results
-- Executed trades
-- Profit/loss per chain
-- Reinvestment activities
-- Risk management triggers
+## 📜 License
 
-### 🤝 Contributing
+MIT License - See LICENSE file
 
-Contributions are welcome! Please follow these steps:
+## ⚠️ Disclaimer
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-### 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-### ⚠️ Disclaimer
-
-Trading cryptocurrencies carries significant risk. This bot is for educational purposes only. Always conduct thorough research and use at your own risk.
+This software is for educational purposes only. Cryptocurrency trading involves significant risk.
